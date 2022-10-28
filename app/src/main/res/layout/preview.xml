@@ -1,0 +1,39 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#263238"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:layout_weight="1">
+		<VideoView
+			android:id="@+id/videoview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp" />
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:padding="8dp"
+			android:background="#00BFA5"
+			android:text="Change Intro"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adview1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:adSize="SMART_BANNER"
+		app:adUnitId="ca-app-pub-2821623139709959/9279445520" />
+</LinearLayout>
