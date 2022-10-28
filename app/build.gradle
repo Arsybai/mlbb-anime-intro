@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-	compileSdkVersion 28
+	compileSdkVersion 31
 	
 	useLibrary 'org.apache.http.legacy'
 	
 	defaultConfig {
 		applicationId "app.arsybai.mlbb.anime.intro"
 		minSdkVersion 21
-		targetSdkVersion 28
+		targetSdkVersion 31
 		versionCode 4
 		versionName "1.0"
 	}
